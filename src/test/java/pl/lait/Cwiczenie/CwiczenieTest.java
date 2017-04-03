@@ -13,7 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class CwiczenieTest {
 	static FirefoxDriver driver;
 				
-	@BeforeClass
+	@BeforeClass 
 	public static void beforeClass(){
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
@@ -45,4 +45,4 @@ public class CwiczenieTest {
 		driver.quit();
 	}
 }
- 
+ //zadanie
